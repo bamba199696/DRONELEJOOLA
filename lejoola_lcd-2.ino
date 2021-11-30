@@ -12,7 +12,7 @@
 #define LED_BUILTIN(2)
 #define POT_PIN(34)
 #define MIN_SPEED 1040
-#define PMAX_SPEED 1240
+#define MAX_SPEED 1240
 ESC myESC(ESC_PIN,1000,2000,500);
 long int val;
 LCD03 lcd;
